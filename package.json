@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/rayveid/backend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/rayveid/backend-project-lvl1#readme"
+  "homepage": "https://github.com/rayveid/backend-project-lvl1#readme",
+  "dependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "readline-sync": "^1.4.10"
+  }
 }
