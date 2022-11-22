@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { askForName } from '../src/cli.js';
 import { gameOver, getRandomInt, getRadomOperation } from '../src/index.js';

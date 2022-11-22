@@ -1,5 +1,6 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import { greeting, askForName } from '../src/cli.js';
+import { askForName } from '../src/cli.js';
 import { gameOver, getRandomInt, isEven } from '../src/index.js';
 
 const printRules = () => console.log('Answer "yes" if the number is even, otherwise answer "no".');
@@ -7,7 +8,6 @@ const name = askForName(); // спрашиваем и сохраняем имя
 let i = 0; // счетчик хода (должен быть до трех включительно)
 
 
-// greeting(); // спрашиваем имя
 printRules(); // печатаем правила игры
 
 while (i <= 3) {
