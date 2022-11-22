@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync';
 import { askForName } from '../src/cli.js';
-import { gameOver, getRandomInt, getRadomOperation } from '../src/index.js';
+import { gameOver, getRandomInt } from '../src/index.js';
 
+// greeting();
 const name = askForName(); // запрашиваем имя и сохраняем
 
 const mapping = { // сопоставляем возможные значения 
