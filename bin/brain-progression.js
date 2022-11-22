@@ -55,7 +55,7 @@ while (i <= 3) {
   const shredded = shredProgression(progression, element[1]);
 
   console.log(`Question: ${shredded.join(' ')}`); // печатаем вопрос
-  const answer = parseInt(readlineSync.question(`Your answer: `), 10); // записываем ответ
+  const answer = parseInt(readlineSync.question('Your answer: '), 10); // записываем ответ
   const correctAnswer = parseInt(element[0], 10); // определяем правильный ответ
 
   if (answer === correctAnswer) {

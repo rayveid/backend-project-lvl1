@@ -27,7 +27,7 @@ while (i <= 3) {
   const num1 = getRandomInt(); // получаем случайно число
   const num2 = getRandomInt(); // получаем случайно число
   console.log(`Question: ${num1} ${num2}`); // печатаем вопрос
-  const answer = parseInt(readlineSync.question(`Your answer: `), 10); // записываем ответ
+  const answer = parseInt(readlineSync.question('Your answer: '), 10); // записываем ответ
   const correctAnswer = parseInt(findGcd(num1, num2), 10); // определяем правильный ответ
 
   if (answer === correctAnswer) {

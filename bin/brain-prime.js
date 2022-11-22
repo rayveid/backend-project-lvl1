@@ -24,7 +24,7 @@ while (i <= 3) {
 
   const num = getRandomInt();
   console.log(`Question: ${num}`); // печатаем вопрос
-  const answer = readlineSync.question(`Your answer: `); // записываем ответ
+  const answer = readlineSync.question('Your answer: '); // записываем ответ
   const correctAnswer = isPrime(num) ? 'yes' : 'no'; // определяем правильный ответ
 
   if (answer === correctAnswer) {

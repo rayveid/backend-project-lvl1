@@ -26,7 +26,7 @@ while (i <= 3) {
   const num2 = getRandomInt();
   const operation = getRandomOperation(); // получаем случайную операцию
   console.log(`Question: ${num1} ${operation} ${num2}`); // печатаем вопрос
-  const answer = parseInt(readlineSync.question(`Your answer: `), 10); // записываем ответ
+  const answer = parseInt(readlineSync.question('Your answer: '), 10); // записываем ответ
   const correctAnswer = mapping[operation](num1, num2); // определяем правильный ответ
 
   if (answer === correctAnswer) {

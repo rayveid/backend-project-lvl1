@@ -3,8 +3,10 @@ import readlineSync from 'readline-sync';
 import { askForName } from '../src/cli.js';
 import { gameOver, getRandomInt, isEven } from '../src/index.js';
 
-const printRules = () =>
+const printRules = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
+};
+
 const name = askForName(); // спрашиваем и сохраняем имя
 let i = 0; // счетчик хода (должен быть до трех включительно)
 
@@ -19,7 +21,7 @@ while (i <= 3) {
 
   const number = getRandomInt(); // получаем случайно число
   console.log(`Question: ${number}`); // печатаем вопрос
-  const answer = readlineSync.question(`Your answer: `); // записываем ответ
+  const answer = readlineSync.question('Your answer: '); // записываем ответ
   const correctAnswer = isEven(number); // определяем правильный ответ
 
   if (answer === correctAnswer) {
