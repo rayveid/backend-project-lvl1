@@ -36,7 +36,7 @@ const getElement = (progression) => {
 
 // ф-я возвращающая элемент с замененным на .. индексом
 const shredProgression = (progression, index) => {
-  const shreddedProgression = progression.map((element) => element); // создаем копию исходного массива
+  const shreddedProgression = progression.map((element) => element);
   shreddedProgression[index] = '..';
   return shreddedProgression;
 };
