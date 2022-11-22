@@ -21,7 +21,7 @@ export const isEven = (number) => {
 }
 
 // получение случайной операции
-export const getRadomOperation = () => {
+export const getRandomOperation = () => {
 	const possibleOperations = ['*', '-', '+']; // массив из возможных операций
 	const index = getRandomInt(0, possibleOperations.length - 1); // получаем случайный индекс
 	return possibleOperations[index]; // возвращаем случайное выражение

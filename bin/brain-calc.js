@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { askForName } from '../src/cli.js';
-import { gameOver, getRandomInt } from '../src/index.js';
+import { gameOver, getRandomInt, getRandomOperation } from '../src/index.js';
 
 // greeting();
 const name = askForName(); // запрашиваем имя и сохраняем
@@ -23,7 +23,7 @@ while (i <= 3) {
 
 	const num1 = getRandomInt(); // получаем числа для дальнейшей работы
 	const num2 = getRandomInt();
-	const operation = getRadomOperation(); // получаем случайную операцию
+	const operation = getRandomOperation(); // получаем случайную операцию
 	console.log(`Question: ${num1} ${operation} ${num2}`); // печатаем вопрос
 	const answer = parseInt(readlineSync.question(`Your answer: `)); // записываем ответ
 	const correctAnswer = mapping[operation](num1, num2) // определяем правильный ответ

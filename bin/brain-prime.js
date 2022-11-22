@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { askForName } from '../src/cli.js';
-import { gameOver, getRandomInt, getRadomOperation } from '../src/index.js';
+import { gameOver, getRandomInt } from '../src/index.js';
 
 const name = askForName(); // запрашиваем имя и сохраняем
 console.log('Answer "yes" if given number is prime. Otherwise answer "no".') // выводим правила
