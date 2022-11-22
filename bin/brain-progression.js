@@ -5,7 +5,7 @@ import { gameOver, getRandomInt, getRadomOperation } from '../src/index.js';
 const name = askForName(); // запрашиваем имя и сохраняем
 console.log('What number is missing in the progression?') // выводим правила
 
-// функция возвращающая прогрессию-массив чисел
+// функция возвращающая прогрbессию-массив чисел
 const generateProgression = () => {
 	const step = getRandomInt(1, 10); // шаг прогрессии
 	const length = getRandomInt(5, 15); // длина прогресии
