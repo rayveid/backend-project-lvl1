@@ -7,3 +7,6 @@ export const askForName = () => {
 	console.log(`Hello, ${name}!`);
 	return name; // возращаем имя пользователя
 }
+
+
+
