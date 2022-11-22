@@ -1,34 +1,38 @@
 {
-  "name": "@hexlet/code",
-  "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/rayveid/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/rayveid/backend-project-lvl1/actions)",
-  "main": "index.js",
-  "type": "module",
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js",
-    "brain-prime": "bin/brain-prime.js",
-    "brain-progression": "bin/brain-progression.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rayveid/backend-project-lvl1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rayveid/backend-project-lvl1/issues"
-  },
-  "homepage": "https://github.com/rayveid/backend-project-lvl1#readme",
-  "dependencies": {
-    "eslint": "^8.23.1",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "readline-sync": "^1.4.10"
-  }
+    "name": "@hexlet/code",
+    "version": "1.0.0",
+    "description": "[![Actions Status](https://github.com/rayveid/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/rayveid/backend-project-lvl1/actions)",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "brain-games": "bin/brain-games.js",
+        "brain-even": "bin/brain-even.js",
+        "brain-calc": "bin/brain-calc.js",
+        "brain-gcd": "bin/brain-gcd.js",
+        "brain-prime": "bin/brain-prime.js",
+        "brain-progression": "bin/brain-progression.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rayveid/backend-project-lvl1.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rayveid/backend-project-lvl1/issues"
+    },
+    "homepage": "https://github.com/rayveid/backend-project-lvl1#readme",
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "eslint": "^8.28.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-jest": "^27.1.5",
+        "prettier": "2.7.1"
+    }
 }
