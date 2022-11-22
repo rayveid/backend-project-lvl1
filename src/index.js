@@ -10,7 +10,7 @@ export const gameOver = (name, answer, correctAnswer) => {
 export const getRandomInt = (min = 1, max = 100) => {
   const normalMin = Math.ceil(min);
   const normalMax = Math.floor(max);
-  return Math.floor(Math.random() * (normalMax - normalMin)) + normalMin; // Максимум не включается, минимум включается
+  return Math.floor(Math.random() * (normalMax - normalMin)) + normalMin;
 };
 
 // функция проверки на четность
